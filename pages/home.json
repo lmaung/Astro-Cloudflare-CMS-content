@@ -8,7 +8,7 @@
       "type": "core/hero",
       "status": "active",
       "content": {
-        "eyebrow": "Astro CMS platform",
+        "eyebrow": "CMS platform",
         "heading": "Build faster with structured, Git-backed content",
         "body": "Structured content, accessible components, and a Git-backed publishing workflow.",
         "action": {
