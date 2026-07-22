@@ -1,0 +1,32 @@
+{
+  "id": "page-home",
+  "slug": "home",
+  "title": "Astro Boilerplate CMS",
+  "blocks": [
+    {
+      "id": "hero-home",
+      "type": "core/hero",
+      "status": "active",
+      "content": {
+        "eyebrow": "Astro CMS platform",
+        "heading": "Build faster with structured, Git-backed content",
+        "body": "Structured content, accessible components, and a Git-backed publishing workflow.",
+        "action": {
+          "label": "Explore the platform",
+          "href": "#content"
+        }
+      }
+    },
+    {
+      "id": "rich-text-home",
+      "type": "core/rich-text",
+      "status": "active",
+      "content": {
+        "heading": "Content without presentation logic",
+        "paragraphs": [
+          "Pages are ordered collections of validated blocks. The frontend owns rendering while the content repository stays data-only."
+        ]
+      }
+    }
+  ]
+}
