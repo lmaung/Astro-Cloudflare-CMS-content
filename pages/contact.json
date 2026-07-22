@@ -1,0 +1,28 @@
+{
+  "id": "page-cb81b759-db60-499a-87e1-ddf5ac34538e",
+  "slug": "contact",
+  "status": "published",
+  "title": "Contact",
+  "seo": {
+    "title": "",
+    "description": "",
+    "socialImageAlt": "",
+    "noIndex": false
+  },
+  "blocks": [
+    {
+      "id": "core-hero-aec27fdf-b233-4f7d-84e7-89a03c9ea970",
+      "type": "core/hero",
+      "status": "active",
+      "content": {
+        "eyebrow": "Astro CMS platform",
+        "heading": "A fast, maintainable foundation for content-driven sites",
+        "body": "Structured content, accessible components, and a Git-backed publishing workflow.",
+        "action": {
+          "label": "Explore the platform",
+          "href": "#content"
+        }
+      }
+    }
+  ]
+}

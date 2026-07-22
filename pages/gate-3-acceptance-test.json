@@ -1,0 +1,37 @@
+{
+  "id": "page-7aff49f4-6949-486a-bafa-b2bb903d71b9",
+  "slug": "gate-3-acceptance-test",
+  "status": "archived",
+  "title": "Gate 3 Acceptance Test",
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "blocks": [
+    {
+      "id": "core-rich-text-ca415e30-3c94-4124-abe8-956d39291301",
+      "type": "core/rich-text",
+      "status": "active",
+      "content": {
+        "heading": "Content without presentation logic",
+        "paragraphs": [
+          "Pages are ordered collections of validated blocks. The frontend owns rendering while the content repository stays data-only."
+        ]
+      }
+    },
+    {
+      "id": "core-hero-c2312b33-fd57-411b-bdf8-030c278c96f9",
+      "type": "core/hero",
+      "status": "active",
+      "content": {
+        "eyebrow": "Astro CMS platform",
+        "heading": "A fast, maintainable foundation for content-driven sites",
+        "body": "Structured content, accessible components, and a Git-backed publishing workflow.",
+        "action": {
+          "label": "Explore the platform",
+          "href": "#content"
+        }
+      }
+    }
+  ]
+}

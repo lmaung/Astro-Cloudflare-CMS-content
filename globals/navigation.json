@@ -1,6 +1,16 @@
 {
   "primary": [
-    { "label": "Home", "href": "/" },
-    { "label": "Content", "href": "#content" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Content",
+      "href": "#content"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
   ]
 }
