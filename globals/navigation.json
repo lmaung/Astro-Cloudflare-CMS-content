@@ -1,0 +1,6 @@
+{
+  "primary": [
+    { "label": "Home", "href": "/" },
+    { "label": "Content", "href": "#content" }
+  ]
+}
