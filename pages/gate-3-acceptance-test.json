@@ -1,0 +1,26 @@
+{
+  "id": "page-7aff49f4-6949-486a-bafa-b2bb903d71b9",
+  "slug": "gate-3-acceptance-test",
+  "status": "published",
+  "title": "Gate 3 Acceptance Test",
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "blocks": [
+    {
+      "id": "core-hero-c2312b33-fd57-411b-bdf8-030c278c96f9",
+      "type": "core/hero",
+      "status": "active",
+      "content": {
+        "eyebrow": "Astro CMS platform",
+        "heading": "A fast, maintainable foundation for content-driven sites",
+        "body": "Structured content, accessible components, and a Git-backed publishing workflow.",
+        "action": {
+          "label": "Explore the platform",
+          "href": "#content"
+        }
+      }
+    }
+  ]
+}
