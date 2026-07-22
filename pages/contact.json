@@ -1,8 +1,16 @@
 {
   "id": "page-cb81b759-db60-499a-87e1-ddf5ac34538e",
   "slug": "contact",
-  "status": "published",
+  "status": "archived",
   "title": "Contact",
+  "access": {
+    "readRoles": [
+      "public"
+    ],
+    "writeRoles": [
+      "admin"
+    ]
+  },
   "seo": {
     "title": "",
     "description": "",
