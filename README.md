@@ -18,7 +18,11 @@ Clone the repositories as siblings:
 ```
 
 The frontend validates `content-manifest.json` and reads page data from `pages/`.
-Local CMS saves update files atomically and do not create Git commits.
+Each page uses a permanent safe slug and a `published` or `archived` lifecycle
+state. Navigation order is stored independently under `globals/`, so published
+pages may remain intentionally unlisted. Local CMS saves update files atomically
+and do not create Git commits; deployed CMS saves create validated content-only
+commits without redeploying the frontend.
 
 ## Licensing
 
