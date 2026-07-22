@@ -1,0 +1,52 @@
+{
+  "roles": [
+    {
+      "key": "public",
+      "name": "Public",
+      "description": "Implicit role held by every visitor.",
+      "system": true
+    },
+    {
+      "key": "authenticated",
+      "name": "Authenticated",
+      "description": "Implicit role held by every signed-in visitor.",
+      "system": true
+    },
+    {
+      "key": "member",
+      "name": "Member",
+      "description": "May read content intended for members.",
+      "system": true
+    },
+    {
+      "key": "editor",
+      "name": "Editor",
+      "description": "May read editorial content.",
+      "system": true
+    },
+    {
+      "key": "page-editor",
+      "name": "Page editor",
+      "description": "May edit pages that explicitly allow this role.",
+      "system": true
+    },
+    {
+      "key": "admin",
+      "name": "Administrator",
+      "description": "Full administrative access.",
+      "system": true
+    }
+  ],
+  "users": [
+    {
+      "email": "lwin@maungs.com",
+      "displayName": "Lwin Maung",
+      "roles": ["admin"]
+    },
+    {
+      "email": "lwin.maung@accolade.solutions",
+      "displayName": "Lwin Maung",
+      "roles": ["member", "editor"]
+    }
+  ]
+}
