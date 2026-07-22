@@ -1,6 +1,16 @@
 {
   "primary": [
-    { "label": "Home", "href": "/" },
-    { "label": "Content", "href": "#content" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Gate 3 Acceptance Test",
+      "href": "/gate-3-acceptance-test"
+    },
+    {
+      "label": "Content",
+      "href": "#content"
+    }
   ]
 }
